@@ -1,5 +1,4 @@
 /* utilities */
-
 :root {
     --teal: #0ba17b;
     --grayed: #669999;
@@ -17,7 +16,6 @@ p {
 
 
 /* custom styles */
-
 .header-style {
     background-color: var(--teal);
     height: 5vh;
@@ -30,3 +28,42 @@ p {
     background-color: var(--teal);
     height: 12vh;
 }
+
+
+/* form */
+.form-style {
+    background-image: url(https://images.unsplash.com/photo-1658442383587-0ce640ea26f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8anIxWGRvWFBuWWN8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-position: top;
+    height: 30vh;
+}
+
+.form-card {
+    height: 20vh;
+}
+
+
+/* stats */
+.stats-style {
+    background-color: var(--teal);
+    height: 20vh;
+}
+
+.stats-card {}
+
+
+/* cert */
+.cert-style {
+    height: 30vh;
+}
+
+.cert-card {}
+
+
+/* reviews */
+.review-style {
+    background-color: lightgray;
+    height: 25vh;
+}
+
+.review-card {}
