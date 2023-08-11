@@ -1,0 +1,32 @@
+/* utilities */
+
+:root {
+    --teal: #0ba17b;
+    --grayed: #669999;
+}
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* custom styles */
+
+.header-style {
+    background-color: var(--teal);
+    height: 5vh;
+    color: whitesmoke;
+}
+
+.main-style {}
+
+.footer-style {
+    background-color: var(--teal);
+    height: 12vh;
+}
