@@ -12,6 +12,11 @@ p {
     margin: 0;
 }
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
 
 /* body styles */
 .header-style {
@@ -50,8 +55,7 @@ p {
 }
 
 .form-text {
-    background-color: rgba(128, 128, 128, 0.499);
-    align-items: center;
+    background-color: rgba(128, 128, 128, 0.75);
 }
 
 /* stats */
@@ -62,6 +66,7 @@ p {
 
 .stats-card {
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .stat-text {
@@ -77,6 +82,7 @@ p {
 
 .cert-card {
     text-align: center;
+    background-color: var(--teal);
 }
 
 .cert-image {
@@ -93,9 +99,11 @@ p {
 .review-card {
     text-align: center;
     min-height: 20vh;
+    background-color: whitesmoke;
 }
 
 .review-card2 {
     text-align: center;
     min-height: 30vh;
+    background-color: whitesmoke;
 }
