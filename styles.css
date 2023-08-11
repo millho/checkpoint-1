@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Bricolage Grotesque', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -26,7 +24,11 @@ p {
 
 .footer-style {
     background-color: var(--teal);
-    min-height: 10vh;
+}
+
+.foot-text-style {
+    background-color: whitesmoke;
+    color: whitesmoke;
 }
 
 
@@ -49,6 +51,7 @@ p {
 
 .form-text {
     background-color: rgba(128, 128, 128, 0.499);
+    align-items: center;
 }
 
 /* stats */
@@ -61,6 +64,11 @@ p {
     text-align: center;
 }
 
+.stat-text {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
 
 /* cert */
 .cert-style {
