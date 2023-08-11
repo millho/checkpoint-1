@@ -15,7 +15,7 @@ p {
 }
 
 
-/* custom styles */
+/* body styles */
 .header-style {
     background-color: var(--teal);
     height: 5vh;
@@ -38,9 +38,7 @@ p {
     height: 30vh;
 }
 
-.form-card {
-    height: 20vh;
-}
+.form-card {}
 
 
 /* stats */
