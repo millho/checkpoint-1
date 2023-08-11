@@ -80,9 +80,14 @@ p {
 /* reviews */
 .review-style {
     background-color: var(--grayed);
-    min-height: 35vh;
 }
 
 .review-card {
     text-align: center;
+    min-height: 20vh;
+}
+
+.review-card2 {
+    text-align: center;
+    min-height: 30vh;
 }
