@@ -1,7 +1,7 @@
 /* utilities */
 :root {
     --teal: #0ba17b;
-    --grayed: #669999;
+    --grayed: #77b5b5;
 }
 
 body {
@@ -26,7 +26,7 @@ p {
 
 .footer-style {
     background-color: var(--teal);
-    height: 12vh;
+    min-height: 10vh;
 }
 
 
@@ -34,34 +34,55 @@ p {
 .form-style {
     background-image: url(https://images.unsplash.com/photo-1658442383587-0ce640ea26f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8anIxWGRvWFBuWWN8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
     background-size: cover;
-    background-position: top;
-    height: 30vh;
+    background-position: center;
+    min-height: 50vh;
 }
 
-.form-card {}
+.form-card {
+    background-color: var(--grayed);
+}
 
+.form-button {
+    background-color: var(--grayed);
+    border-radius: 7px;
+}
+
+.form-text {
+    background-color: rgba(128, 128, 128, 0.499);
+}
 
 /* stats */
 .stats-style {
     background-color: var(--teal);
-    height: 20vh;
+    min-height: 35vh;
 }
 
-.stats-card {}
+.stats-card {
+    text-align: center;
+}
 
 
 /* cert */
 .cert-style {
-    height: 30vh;
+    min-height: 35vh;
 }
 
-.cert-card {}
+.cert-card {
+    text-align: center;
+}
+
+.cert-image {
+    object-fit: cover;
+    width: 100%;
+}
 
 
 /* reviews */
 .review-style {
-    background-color: lightgray;
-    height: 25vh;
+    background-color: var(--grayed);
+    min-height: 35vh;
 }
 
-.review-card {}
+.review-card {
+    text-align: center;
+}
