@@ -43,10 +43,11 @@ h4 {
 
 .form-card {
     background-color: var(--grayed);
+    justify-content: space-around;
 }
 
 .form-button {
-    background-color: var(--grayed);
+    background-color: var(--teal);
     border-radius: 7px;
 }
 
@@ -71,7 +72,7 @@ h4 {
         position: absolute;
         min-height: 35vh;
         bottom: -25px;
-        right: 45px;
+        right: 65px;
     }
 }
 
@@ -112,6 +113,11 @@ h4 {
     width: 100%;
 }
 
+.cert-card-text {
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
 
 /* reviews */
 .review-style {
@@ -128,4 +134,11 @@ h4 {
     text-align: center;
     min-height: 30vh;
     background-color: whitesmoke;
+}
+
+.review-card-text {
+    background-color: #77b5b5;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
 }
