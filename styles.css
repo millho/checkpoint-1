@@ -8,24 +8,20 @@ body {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-p {
-    margin: 0;
-}
-
+p,
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 
 /* body styles */
 .header-style {
     background-color: var(--teal);
-    height: 5vh;
+    min-height: 5vh;
     color: whitesmoke;
 }
-
-.main-style {}
 
 .footer-style {
     background-color: var(--teal);
@@ -56,9 +52,29 @@ h3 {
 
 .form-text {
     background-color: rgba(128, 128, 128, 0.75);
+    backdrop-filter: 10px;
+    color: whitesmoke;
 }
 
 /* stats */
+@media (min-width: 768px) {
+    .stats-style {
+        background-color: var(--teal);
+        min-height: 35vh;
+        position: relative;
+        justify-content: start !important;
+    }
+
+    .stats-card {
+        text-align: center;
+        background-color: var(--grayed);
+        position: absolute;
+        min-height: 35vh;
+        bottom: -25px;
+        right: 45px;
+    }
+}
+
 .stats-style {
     background-color: var(--teal);
     min-height: 35vh;
@@ -66,10 +82,16 @@ h3 {
 
 .stats-card {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: var(--grayed);
 }
 
 .stat-text {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+
+.stat-card-text {
     background-color: whitesmoke;
     text-align: center;
     padding: 1em;
